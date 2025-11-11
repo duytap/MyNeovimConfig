@@ -44,7 +44,7 @@ set fileencoding=utf-8
 
 lua << EOF
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = { 'c', 'cpp', 'objc', 'python', 'make', 'java', 'lua' },
+  ensure_installed = { 'c', 'cpp', 'objc', 'python', 'make', 'java', 'lua', 'go' },
   highlight = { enable = true },
   indent = { enable = true }
 }
