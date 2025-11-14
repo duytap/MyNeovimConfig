@@ -89,7 +89,7 @@ vim.api.nvim_create_autocmd("CursorHold", {
 
 vim.lsp.config['clangd'] = {
     cmd = { 'clangd' },
-    filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'python', 'make', 'java', 'lua' },
+    filetypes = { 'c', 'cpp', 'objc', 'objcpp' },
     root_markers = { 'compile_commands.json', 'compile_flags.txt', '.git' },
     capabilities = capabilities,
         on_attach = function(client, bufnr)
